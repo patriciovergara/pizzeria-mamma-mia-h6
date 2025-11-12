@@ -172,9 +172,11 @@ git commit -m "build: hito 5 router + pages"
 git push
 
 
-Y activé GitHub Pages →
+Y activé GitHub Pages → 
 Branch: main
 Folder: /docs
+# 🍕 Pizzería Mamma Mía – Hito 5
+[Ver demo en GitHub Pages](https://patriciovergara.github.io/pizzeria-mamma-mia-h5/)
 
 🧠 10) Conclusión
 
