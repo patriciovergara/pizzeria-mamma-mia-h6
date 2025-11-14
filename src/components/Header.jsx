@@ -1,17 +1,22 @@
+// src/components/Header.jsx
 import hero from '../assets/img/header.jpg'
 
-const Header = () => (
-  <header className="position-relative text-white">
-    <img
-      src={hero}
-      alt="Pizzería Mamma Mía"
-      className="w-100 object-fit-cover"
-      style={{ maxHeight: '320px' }}
-    />
-    <div className="position-absolute top-50 start-50 translate-middle text-center">
-      <h1 className="display-5 fw-bold">¡Pizzería Mamma Mía!</h1>
-      <p className="lead mb-0">¡Tenemos las mejores pizzas que podrás encontrar!</p>
-    </div>
-  </header>
-)
-export default Header
+export default function Header() {
+  return (
+    <header>
+      <img
+        src={hero}
+        alt="Pizza header"
+        className="img-fluid w-100"
+        style={{ maxHeight: '300px', objectFit: 'cover' }}
+      />
+
+      <div className="text-center py-4">
+        <h1 className="fw-bold">¡Pizzería Mamma Mía!</h1>
+        <p className="text-muted fs-5">
+          ¡Tenemos las mejores pizzas que podrás encontrar!
+        </p>
+      </div>
+    </header>
+  )
+}

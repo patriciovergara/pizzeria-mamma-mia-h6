@@ -6,5 +6,5 @@ export default defineConfig({
   build: {
     outDir: 'docs',
   },
-  base: '/pizzeria-mamma-mia-h5/',
+  base: '/pizzeria-mamma-mia-h6/',
 })
