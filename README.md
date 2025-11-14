@@ -1,12 +1,12 @@
-#📘 **Pizzería Mamma Mía (Hito 6)**
+# 📘 **Pizzería Mamma Mía (Hito 6)**
 
-🍕 Descripción del proyecto
+## 🍕 Descripción del proyecto
 
 En este hito implementé el carrito de compras global utilizando React Context API, integré el enrutado mediante React Router, desarrollé la vista de detalle dinámica para cada pizza y optimicé la experiencia visual usando Bootstrap 5, logrando una interfaz más moderna, ordenada y fácil de usar.
 
 El objetivo fue consolidar un flujo de compra completo, manteniendo la arquitectura modular y asegurando una experiencia coherente en todas las vistas.
 
-🔗 Demo en GitHub Pages
+### 🔗 Demo en GitHub Pages
 
 👉 **[Ver demo aquí](https://patriciovergara.github.io/pizzeria-mamma-mia-h6/)**
 
@@ -24,7 +24,8 @@ JavaScript ES6
 
 CSS personalizado
 
-📦 Funcionalidades implementadas
+### 📦 Funcionalidades implementadas
+
 ✔ 1. Estado global del carrito con React Context
 
 Creé el archivo:
@@ -125,7 +126,7 @@ Apliqué estilos propios en index.css para pulir detalles
 
 El resultado es una aplicación más limpia, moderna y visualmente agradable.
 
-📁 Estructura del proyecto
+### 📁 Estructura del proyecto
 src/
   assets/
     img/
@@ -149,7 +150,7 @@ src/
   main.jsx
   index.css
 
-🚀 Cómo ejecutar el proyecto
+### 🚀 Cómo ejecutar el proyecto
 npm install
 npm run dev
 
@@ -158,7 +159,7 @@ Se abrirá en:
 
 http://localhost:5173
 
-📦 Cómo generar la versión para GitHub Pages
+### 📦 Cómo generar la versión para GitHub Pages
 npm run build
 
 
@@ -169,7 +170,7 @@ La carpeta generada es:
 
 GitHub Pages debe apuntar a esa carpeta desde Settings → Pages.
 
-🎯 Conclusión
+## 🎯 Conclusión
 
 En este hito integré un carrito global completamente funcional, rutas dinámicas, manejo de estado centralizado con Context API y una optimización visual mediante Bootstrap.
 El resultado es una aplicación más profesional, escalable y coherente en su flujo de navegación y uso.
